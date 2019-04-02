@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.5'
 
+gem 'bootstrap-sass', '~> 3.3.6'
+
 gem 'devise'
 gem 'devise-bootstrap-views'
 gem 'devise-i18n'
